@@ -44,6 +44,7 @@ trade-plus/
 ├── frontend/
 ├── .gitignore
 └── README.md
+```
 
 ## 📸 Screenshots
 
