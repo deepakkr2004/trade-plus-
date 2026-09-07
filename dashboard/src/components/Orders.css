@@ -1,0 +1,150 @@
+.orders-page {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.orders-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.orders-header h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #222;
+}
+
+.orders-header p {
+    margin-top: 8px;
+    color: #777;
+}
+
+.order-count {
+    background: #f5f5f5;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.orders-table {
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.orders-table-header,
+.order-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 18px 25px;
+}
+
+.orders-table-header {
+    background: #fafafa;
+    color: #777;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+
+.order-row {
+    border-bottom: 1px solid #eee;
+    transition: 0.2s;
+}
+
+.order-row:last-child {
+    border-bottom: none;
+}
+
+.order-row:hover {
+    background: #fafafa;
+}
+
+.stock-name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.stock-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #fff1f1;
+    color: #e53935;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.stock-name strong {
+    display: block;
+    font-size: 15px;
+    color: #222;
+}
+
+.stock-name small {
+    display: block;
+    margin-top: 4px;
+    color: #999;
+}
+
+.order-value {
+    font-size: 15px;
+    color: #333;
+}
+
+.mode {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mode.buy {
+    background: #e8f7ee;
+    color: #16833b;
+}
+
+.mode.sell {
+    background: #fdeaea;
+    color: #d93025;
+}
+
+.empty-orders {
+    text-align: center;
+    padding: 80px 20px;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    background: white;
+}
+
+.empty-orders h2 {
+    margin-bottom: 10px;
+}
+
+.empty-orders p {
+    color: #777;
+}
+
+.start-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 11px 24px;
+    background: #387ed1;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.start-btn:hover {
+    background: #2868b5;
+}
